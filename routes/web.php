@@ -19,5 +19,5 @@ Route::get('/', function () {
 })->name('home');
 
 // Route::get('/', [GiftController::class, 'index'])->name('home');
-
+// prova github
 Route::resource('gifts', GiftController::class);
